@@ -1,0 +1,16 @@
+{
+  "name": "workflow-templates",
+  "version": "1.0.0",
+  "repository": "github:bjerkio/workflows-templates",
+  "author": "Bjerk AS",
+  "license": "Apache-2.0",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "prettier": "@cobraz/prettier",
+  "devDependencies": {
+    "@cobraz/prettier": "^2.0.1",
+    "prettier": "^2.8.7"
+  }
+}

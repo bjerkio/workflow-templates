@@ -11,7 +11,8 @@ This repository contains a collection of workflow templates for GitHub Actions.
 
 ## Updating workflow templates
 
-I suggest using `microplane` to update the workflow templates in your repositories.
+I suggest using `microplane` to update the workflow templates in your
+repositories.
 
 ```bash
 mp plan -b update-workflows -- cp -r .github/workflows/ ./

@@ -16,7 +16,7 @@ jobs:
       - name: Create issue from TODO comments 📝
         uses: derjuulsn/todo-issue@main
         with:
-          excludePattern: "^(node_modules/)"
+          excludePattern: '^(node_modules/)'
           label: |
             needs-refinement
             needs-triage
