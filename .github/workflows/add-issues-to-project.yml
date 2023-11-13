@@ -18,7 +18,7 @@ jobs:
         with:
           project-url: ${{ env.PROJECT_URL }}
           github-token: ${{ secrets.BJERKBOT_GITHUB_TOKEN }}
-      - uses: actions/github-script@v6
+      - uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.BJERKBOT_GITHUB_TOKEN }}
           script: |
